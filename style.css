@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+   
+/* Header(Navbar section)*/
+#NavBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    width: 100%;
+    background-color: rgba(204, 216, 223, 0.2);
+    
+
+}
+/*nav-left*/
+#nav-left{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+#nav-left img{
+    width: 230px;
+    height: 66px;
+    top: 34px;
+    left: 49px;
+    border-radius: 123.5px;
+    
+}
+#nav-left  div{
+   border-left: 2px solid rgb(117, 117, 117);
+
+   font-size: 20px;
+   color: rgb(117, 117, 117);
+   padding-left: 20px;
+    
+}
+/*nav-right*/
+#nav-right{
+    box-sizing: border-box;
+}
+#nav-right ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right:30px ;
+}
+#nav-right ul li{
+    list-style: none;
+    padding: 6px;
+}
+#downArrow i{
+    font-size: 30px;
+    margin-top: -10px;
+
+}
+.paraNav{
+    font-size:20px ;
+    color: rgb(117, 117, 117);
+}
+button{
+    font-size: 25px;
+    color: white;
+    background-color: rgba(3, 23, 39, 0.76);
+    padding: 4px 20px;
+    border-radius: 20px;
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+/*hero section start*/
+#heroSection{
+    background-image:url(./ProjectImage/gredient-rec.jpg);
+    width: 100vw;
+    height: 80vh;
+    background-size: cover;
+    border-radius: 30px;
+    /* margin: 50px 50px 50px 50px; */
+    box-sizing: border-box;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+   
+}
+#hero-left{
+    display: flex;
+    flex-direction: column;
+}
+#searchBar{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    background: white;
+    border: none;
+}
+#navBtn{
+    background-color: rgb(2, 31, 31);
+    color: white;
+    width: 35%;
+    padding: 10px;
+    text-align: center;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+}
+#comment{
+    display: flex;
+}
+#comment li{
+   list-style: none;
+   padding: 12px;
+   color: rgba(2, 45, 95, 0.836);
+}
+#hero-left>h1{
+    font-size: 40px;
+    color: rgba(4, 14, 26, 0.836);
+}
+#hero-right>img{
+    width: 474.99px;
+height: 303.36px;
+
+}
+/*Blog section*/
+#Latest-Blogs{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+}
+#Latest-Blogs-left{
+    width: 671px;
+height: 460px;
+border-radius: 15px;
+
+}
+#Latest-Blogs-left img{
+width: 671px;
+height: 460px;
+text-align: left;
+
+border-radius: 15px;
+
+}
+#Latest-Blogs-right{
+    width: 671px;
+   height: 460px;
+
+}
+
+
+
+
+/* <!--More Blogs Section--> */
+#MoreBlogs{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+#MainBlock{
+    width: 431.53px;
+height: 469px;
+border-radius: 20px;
+border: 1px solid green;
+box-shadow: 1px 1px 15px black;
+text-align: center;
+
+
+}
+#MainBlock img{
+    width: 431.53px;
+    height: 60%;
+border-radius: 20px;
+
+
+
+}
+
+/*Footer*/
+#foot{
+    background-image:url(.//ProjectImage/gredient-rec.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+height: 707px;
+justify-content: space-around;
+display: flex;
+align-items: center;
+
+
+}
+#footer-btn{
+    background-image: linear-gradient(blue,rgb(0, 255, 195));
+}
